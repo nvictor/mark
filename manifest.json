@@ -6,16 +6,6 @@
         "128": "question.png"
     },
     "browser_action": {},
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ],
     "permissions": [
         "bookmarks"
     ],
