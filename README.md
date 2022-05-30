@@ -1,4 +1,4 @@
-# rnd
+# mark
 
 Chrome extension that opens a random bookmark in a new tab.
 
