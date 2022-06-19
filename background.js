@@ -1,8 +1,8 @@
 function gather(node, nodes) {
     if (node.children) {
-        node.children.forEach(n => { gather(n, nodes) });
+        node.children.forEach((n) => { gather(n, nodes) });
     } else {
-        nodes.push(n);
+        nodes.push(node);
     }
     return nodes;
 }
