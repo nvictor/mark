@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "mark",
+    "name": "marks",
     "version": "1.0",
     "icons": {
         "128": "question.png"
