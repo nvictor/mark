@@ -12,7 +12,7 @@ function gather(node, nodes) {
 chrome.action.onClicked.addListener(function () {
     chrome.bookmarks.getTree(function (node) {
         var nodes = [];
-        console.log(gather(node));
+        console.log(gather(node, nodes));
         //chrome.tabs.create({ "url": nodes[Math.floor(Math.random() * nodes.length)].url });
     });
 });
