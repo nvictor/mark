@@ -2,7 +2,9 @@ function gather(node, nodes) {
     if (node.children) {
         node.children.forEach((n) => { gather(n, nodes) });
     } else {
-        nodes.push(node);
+        if (node.url) {
+            nodes.push(node);
+        }
     }
     return nodes;
 }
