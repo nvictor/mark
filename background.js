@@ -2,8 +2,12 @@ function gather(node, nodes) {
     if (node.children) {
         node.children.forEach((n) => { gather(n, nodes) });
     } else {
-        if (node.url) {
-            nodes.push(node);
+        if (Array.isArray(node)) {
+            node.forEach((c) => { gather(c, nodes) });
+        } else {
+            if (node.url) {
+                nodes.push(node);
+            }
         }
     }
     return nodes;
