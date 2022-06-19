@@ -2,8 +2,6 @@
 
 Chrome extension that opens a random bookmark in a new tab.
 
-Only looks at the default "Other Bookmarks" folder. Check the code if you need to update that.
-
 ## Install
 
 1. Clone or download repository
@@ -12,7 +10,6 @@ Only looks at the default "Other Bookmarks" folder. Check the code if you need t
 
 ## Caveats
 
-1. Expects a "Other Bookmarks" folder to have id "2".
 1. Use Javascript [Math.random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random).
 
 ## Credits
